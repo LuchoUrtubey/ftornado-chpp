@@ -1,0 +1,36 @@
+{
+    "name": "ftornado/tornadocups",
+    "version": "1.0.0",
+    "type": "proyect",
+    "description": "Web application with Hattrick's CHPP to manage tournaments and friendly cups.",
+    "homepage": "https://ftornado.tk",
+    "authors": [
+        {
+            "name": "Darth_Ruisu"
+        },
+        {
+            "name": "Bostero66"
+        },
+        {
+            "name": "xKaamo"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3",
+        "ext-curl": "*",
+        "ext-dom": "*",
+        "ext-libxml": "*",
+        "ext-pcre": "*",
+        "ext-Reflection": "*",
+        "ext-xml": "*",
+        "jetwitaussi/pht": "*",
+        "almasaeed2010/adminlte": "*",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHT\\": "PHT"
+        }
+    }
+}
