@@ -1,0 +1,5 @@
+# Todos los robots de busqueda
+User-agent: *
+# Tienen prohibido acceder a:
+Disallow: /admin/
+Disallow: .log

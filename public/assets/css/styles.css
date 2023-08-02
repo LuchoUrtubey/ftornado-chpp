@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 60px;
+}
+
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Changa', sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bot-404 {
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-34%, -41%);
+    z-index: 1;
+
+}
+
+.bot-404 img {
+    height: 280px;
+}
+
+.acceso-denegado {
+    position: absolute;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(0%, -21%);
+    z-index: 1;
+
+}
+
+.acceso-denegado img {
+    height: 280px;
+}
+
+
+
+
+
+
+/* NAVBAR DE ARRIBA DE TODO */
+.first-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00903d;
+    color: whitesmoke;
+}
+
+/* REDES SOCIALES DENTRO DEEL NAVBAR */
+.navbar-social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin-left: 25px;
+}
+
+.navbar-social-icons li {
+    margin-left: 20px;
+}
+
+.navbar-social-icons a {
+    color: whitesmoke;
+    margin-left: 25px;
+}
+
+/* USUARIO CONECTADO DENTRO DEL NAVBAR */
+
+.first-navbar-user {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+
+/* CONTENEDOR LOGO TORNADO Y CHPP  */
+
+.banderin {
+    margin-top: -14px;
+    margin-left: -12px;
+}
+
+/* LOGO TORNADO */
+
+.logo1 {
+    height: 100px;
+    background-color: #00903d;
+    width: 100px;
+}
+
+.logo1 img {
+    width: 80%;
+    height: 65%;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+/* LOGO CHPP */
+.logo2 img {
+    height: 40px;
+}
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* CONTENEDOR DEL MENU */
+
+#navbarNav {
+    margin-top: -70px;
+}
+
+/* SECCIÓN QUIENES SOMOS */
+.seccion1 {
+    margin-top: -80px;
+    /* height: 100vh; */
+    /* Establece la altura al 100% de la altura de la ventana del navegador */
+    /* min-height: 100vh; */
+    /* Establece la altura mínima al 100% de la altura de la ventana del navegador */
+}
+
+/* SECCIÓN  HISTORIA */
+.seccion2 {
+    background-color: #00903d;
+    /* display: flex; */
+    /*height: 100vh;
+    Establece la altura al 100% de la altura de la ventana del navegador
+    min-height: 100vh;
+    Establece la altura mínima al 100% de la altura de la ventana del navegador */
+}
+
+/* IMAGEN SECCIÓN HISTORIA */
+.imagen-seccion2 {
+    margin-top: -150px;
+    margin-left: -80px;
+    width: 90%;
+}
+
+/* TEXTO SECCIÓN HISTORIA */
+.columna-derecha2 {
+    /* flex-grow: 1; */
+    /*margin-left: 0px; */
+    overflow: hidden;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+
+/* .seccion3 {
+    display: flex;
+    height: 100vh;
+    Establece la altura al 100% de la altura de la ventana del navegador
+    min-height: 100vh;
+    Establece la altura mínima al 100% de la altura de la ventana del navegador
+} */
+
+/* .columna-izquierda3 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+} */
+
+/* .bloque2-imagen3 {
+    width: 75%;
+     Cambia el valor a 100% 
+} */
+
+/* SECCIÓN TORNEOS IMAGENES DE LAS COPAS */
+.bloque1-imagen3 {
+    width: 130px;
+}
+
+/* PARRAFO DE COPAS */
+.bloque1 p {
+    text-align: center;
+    margin-right: 15px;
+}
+
+
+
+/* .columna-derecha3 img {
+    height: 640px;
+    overflow-x: hidden;
+
+    Agrega esta propiedad
+    margin-left: 120px;
+} */
+
+/* SECCIÓN FORMULARIO DE REGISTRO */
+.seccion4 {
+    background-color: #00903d;
+    /* display: flex; */
+    /* height: 100vh; */
+    /* Establece la altura al 100% de la altura de la ventana del navegador */
+    /* min-height: 100vh; */
+    /* Establece la altura mínima al 100% de la altura de la ventana del navegador */
+}
+
+/* .seccion5 {
+    display: flex;
+    background-color: #00903d;
+    margin-bottom: 10px;
+    height: 100vh;
+    Establece la altura al 100% de la altura de la ventana del navegador
+    min-height: 100vh;
+    Establece la altura mínima al 100% de la altura de la ventana del navegador
+} */
+
+/* SECCIÓN STAFF TAMAÑO CARDS */
+.card-img5 {
+    width: 70%;
+}
+
+/* TÍTULOS DE CADA SECCIÓN */
+
+/* TÍTULO TORNEOS */
+.titulo1 {
+    color: #00903d;
+    font-size: 3.5rem;
+}
+
+/* TÍTULO HISTORIA */
+.titulo2 {
+    color: whitesmoke;
+    font-size: 3.5rem;
+}
+
+/* TÍTULO TORNEOS */
+.titulo3 {
+    color: #00903d;
+    font-size: 3.5rem;
+}
+
+/* TÍTULO FORMULARIO */
+.titulo4 {
+    color: whitesmoke;
+    font-size: 3.5rem;
+}
+
+/* TÍTULO STAFF */
+.titulo5 {
+    color: #00903d;
+    font-size: 3.5rem;
+    /* background-color: #00903d; */
+}
+
+#btn-volver-arriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+/* MENU HAMBURGUESA DEL MOVIL OPTIMIZADO PARA VISUALIZACIÓN SIN SUPERPOSICIÓN */
+.navbar-collapse {
+    position: relative;
+    z-index: 1000;
+}
+
+.collapse.navbar-collapse.show {
+    background-color: rgba(255, 255, 255, 0.9);
+}

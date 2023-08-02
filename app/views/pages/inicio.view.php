@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <!-- place navbar here -->
+        <!-- COMIENZA EL HEADER -->
     </header>
     <main>
         <h1>Bienvenidos!</h1>
