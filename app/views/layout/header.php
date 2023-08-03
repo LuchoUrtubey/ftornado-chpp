@@ -40,7 +40,6 @@
 
 <body>
     <header>
-        <?php echo ROOT ?>
         <nav class="first-navbar">
             <ul class="navbar-social-icons">
                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
