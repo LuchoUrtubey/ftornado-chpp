@@ -16,5 +16,12 @@ class Inicio
     public function index(): void
     {
         $this->view('inicio');
+
+        // Verificar si el usuario ya ha iniciado sesión
+        if (isset($_SESSION['activo']) && $_SESSION['activo'] === '1') {
+            // Si el usuario ya ha iniciado sesión, redireccionar a la página principal (principal.php)
+            header("Location: principal");
+            exit();
+        }
     }
 }
